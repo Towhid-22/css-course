@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../Galaxy.jpg");
+    background-attachment: fixed;
+}
+
+div{
+    height: 250px;
+    width: 100%;
+    background-color: rgba(179, 97, 97, 0.7);
+    color: rgb(217, 196, 158, 0.5);
+    background-image: url("Computer.jpg");
+    /* background-size: 100% 100%; */
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    color: rgb(9, 0, 0);
+
+    /* Shorthand */
+    /* background: #f78fb3 url(Computer.jpg) no-repeat center right; */
+}
