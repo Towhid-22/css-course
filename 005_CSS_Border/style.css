@@ -1,0 +1,26 @@
+h1, table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+th{
+    padding: 20px;
+    border: 2px solid green;
+    background-color: #2980b9;
+    color: white;
+    font-weight: 900;
+}
+
+td{
+    padding: 10px;
+    border: 2px solid #c0392b;
+    background-color: #16a085;
+    color: white;
+}
+
+tr:hover th, 
+tr:hover td{
+    color: black;
+    background-color: #bdc3c7;
+    transition: 1s;
+}
